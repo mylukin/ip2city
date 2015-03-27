@@ -54,3 +54,11 @@ class WelcomeController extends Controller {
 ## License
 
 MIT
+
+## 宣传
+微信公众号：LukinThink
+功能介绍: 这是【编程人员】最需要的公众账号！每个功能都让你惊喜！互联网职位薪水查询、分享编程过程中的感悟，谁用谁知道！~
+
+拿起微信扫描二维码，关注微信号
+
+![http://lukin.cn/assets/img/qrcode_258.jpg](http://lukin.cn/assets/img/qrcode_258.jpg)
