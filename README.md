@@ -21,7 +21,7 @@
   php artisan vendor:publish --provider="MyLukin\IP2City\ServiceProvider"
   ```
 
-  然后请修改 `config/wechat.php` 中对应的项即可。
+  然后请修改 `config/ip2city.php` 中对应的项即可。
 
 4. 添加下面行到 `config/app.php` 的 `aliases` 部分：
 
