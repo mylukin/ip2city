@@ -17,14 +17,6 @@
       "email": "mylukin@gmail.com"
     }
   ],
-  "scripts": {
-    "post-install-cmd": [
-      "pwd"
-    ],
-    "post-update-cmd": [
-      "pwd"
-    ]
-  },
   "autoload": {
     "psr-4": {
       "MyLukin\\": "src/"
