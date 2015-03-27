@@ -6,7 +6,7 @@
  * Time: 15:56
  */
 
-namespace Mylukin\Ip2city;
+namespace MyLukin\IP2City;
 
 class IP2City
 {
@@ -22,16 +22,16 @@ class IP2City
     private static $instance;
 
     /**
-     * Returns IP17Mon instance.
+     * Returns IP2City instance.
      *
      * @static
      * @param string $dat_file
-     * @return IP17Mon
+     * @return Mylukin\Ip2city\IP2City
      */
     public static function &instance($dat_file)
     {
         if (!self::$instance) {
-            self::$instance = new IP17Mon($dat_file);
+            self::$instance = new static($dat_file);
         }
         return self::$instance;
     }
@@ -93,7 +93,7 @@ class IP2City
     private static function init()
     {
         if (self::$fp === NULL) {
-            self::$ip = new self();
+            self::$ip = new self(self::$datFile);
 
             self::$fp = fopen(self::$datFile, 'rb');
             if (self::$fp === FALSE) {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mylukin\Ip2city;
+namespace MyLukin\IP2City;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 
 /**
- * @see Overtrue\Wechat\Wechat
+ * @see MyLukin\IP2City\IP2City
  */
 class Facade extends LaravelFacade
 {
