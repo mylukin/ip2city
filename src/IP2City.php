@@ -6,7 +6,7 @@
  * Time: 15:56
  */
 
-namespace MyLukin\IP2City;
+namespace Mylukin\Ip2city;
 
 class IP2City
 {

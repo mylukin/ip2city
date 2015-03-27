@@ -1,6 +1,6 @@
 <?php
 
-namespace MyLukin\IP2City;
+namespace Mylukin\Ip2city;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 
