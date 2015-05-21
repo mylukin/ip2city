@@ -17,9 +17,19 @@
       "email": "mylukin@gmail.com"
     }
   ],
+  "scripts": {
+      "post-install-cmd": [
+          "php artisan clear-compiled",
+          "php artisan vendor:publish  --provider=MyLukin\\IP2City\\ServiceProvider"
+      ],
+      "post-update-cmd": [
+          "php artisan clear-compiled"
+		  "cp ./vendor/mylukin/ip2city/17monipdb.dat ./resources/data"
+      ]
+  },
   "autoload": {
     "psr-4": {
-      "MyLukin\\": "src/"
+      "MyLukin\\IP2City\\": "src/"
     }
   }
 }
