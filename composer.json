@@ -24,6 +24,7 @@
       ],
       "post-update-cmd": [
           "php artisan clear-compiled",
+		  "mkdir -p ./resources/data",
 		  "cp ./vendor/mylukin/ip2city/17monipdb.dat ./resources/data"
       ]
   },
