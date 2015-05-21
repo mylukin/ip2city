@@ -23,7 +23,7 @@
           "php artisan vendor:publish  --provider=MyLukin\\IP2City\\ServiceProvider"
       ],
       "post-update-cmd": [
-          "php artisan clear-compiled"
+          "php artisan clear-compiled",
 		  "cp ./vendor/mylukin/ip2city/17monipdb.dat ./resources/data"
       ]
   },
