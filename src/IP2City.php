@@ -11,7 +11,6 @@ namespace MyLukin\IP2City;
 class IP2City
 {
 
-    private static $ip = NULL;
     private static $fp = NULL;
     private static $offset = NULL;
     private static $index = NULL;
@@ -93,7 +92,6 @@ class IP2City
     private static function init()
     {
         if (self::$fp === NULL) {
-            self::$ip = new self(self::$datFile);
 
             self::$fp = fopen(self::$datFile, 'rb');
             if (self::$fp === FALSE) {
